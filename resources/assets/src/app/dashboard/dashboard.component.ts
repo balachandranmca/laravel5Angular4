@@ -9,14 +9,14 @@ import { DashboardService } from './../providers/dashboard.service';
 })
 export class DashboardComponent implements OnInit {
 
-	userList: any = [];
+	creditDebitList: any = [];
 
 	constructor(private _dashboardService: DashboardService) { }
 
 	ngOnInit() {
 		this._dashboardService.listOfAllUsers().then((res: any) => {
 			if (res.success) {
-				this.userList = res.data;		
+				this.creditDebitList = res.data;		
 			} else {
 				console.log("There is some problem");
 			}

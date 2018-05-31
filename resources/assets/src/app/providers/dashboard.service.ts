@@ -10,7 +10,7 @@ export class DashboardService {
 
     listOfAllUsers() {
        return new Promise((resolve, reject) => {
-            this._httpClient.get("user-list").subscribe(
+            this._httpClient.get("api/creditdebits").subscribe(
                 (res: any) => {
                     resolve(res);
                 },
