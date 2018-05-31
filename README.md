@@ -1,4 +1,4 @@
-# Laravel 5.4 with Angular 6 (Using Angular cli)
+# Laravel 5.4 with Angular 6 (Using Angular cli ~6.0.3)
 
 ## Installation
 
