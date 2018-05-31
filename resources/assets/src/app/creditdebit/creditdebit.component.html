@@ -1,0 +1,27 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Amount</th>
+      <th>Date</th>
+      <th>Time</th>
+      <th>Photo</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor="let creditdebit of creditdebits">
+          <td>{{creditdebit.id}}</td>
+          <td>{{creditdebit.title}}</td>
+          <td>{{creditdebit.description}}</td>
+          <td>{{creditdebit.amount}}</td>
+          <td>{{creditdebit.nowdate}}</td>
+          <td>{{creditdebit.nowtime}}</td>
+          <td>{{creditdebit.photo}}</td>
+          <td>{{creditdebit.type}}</td>
+      </tr>
+  </tbody>
+</table>
+
